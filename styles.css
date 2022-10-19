@@ -11,7 +11,7 @@
 }
 
 body {
-  background-color: #393E46;
+  background-color: #6d6d6d;
 }
 
 h1 {
@@ -38,4 +38,24 @@ footer {
   text-align: center;
   font-family: 'Indie Flower', cursive;
 
+}
+
+.btn {
+
+  display: inline-block;
+  outline: 0;
+  cursor: pointer;
+  border-radius: 6px;
+  border: 2px solid #9C070C;
+  color: #9C070C;
+  background: 0 0;
+  padding: 8px;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 2px 4px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1.5px 0px;
+  font-weight: 800;
+  font-size: 16px;
+  height: 42px;
+}
+.btn:hover{
+    background-color: #9C070C;
+    color: #fff;
 }
